@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4614D369-C12F-44E7-9ADC-0FEC8E5CF203</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GuilhermeBisotto</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2BD1F06A7998875ED781C553380DCFD9615ABB7D</key>
+		<string>https://github.com/GuilhermeMBisotto/WWDC2015.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GuilhermeBisotto.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2BD1F06A7998875ED781C553380DCFD9615ABB7D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/GuilhermeMBisotto/WWDC2015.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2BD1F06A7998875ED781C553380DCFD9615ABB7D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2BD1F06A7998875ED781C553380DCFD9615ABB7D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GuilhermeBisotto</string>
+		</dict>
+	</array>
+</dict>
+</plist>

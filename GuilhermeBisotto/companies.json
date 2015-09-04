@@ -1,0 +1,23 @@
+[
+	{
+    	"companyID": 0,
+    	"companyName": "• CWI Software",
+    	"timeInCompany": "May/2012 - May/2013",
+    	"function": "Trainee",
+        "desc": "I was an intern at CWI Software company, which was part of the CRESCER program. I worked as mobile website and desktop website developer focusing on UI and UX.\nI participated in several projects such as Pense Carros and Pense Imóveis mobile websites for the RBS Group and Terra's desktop website Ads tool. \n\nhttp://www.cwi.com.br \n\nhttp://www.cwi.com.br/Empresa/Crescer"
+	},
+	{
+    	"companyID": 1,
+    	"companyName": "• BEPiD POA-PUCRS",
+    	"timeInCompany": "Novamber/2013 - Present",
+    	"function": "Trainee",
+        "desc": "This one year program aims to form iOS developers in order to create apps for the brazilian AppStore. My group and I were selected to continue our main project in the BEPiD's second edition."
+	},
+	{
+    	"companyID": 2,
+    	"companyName": "• GreenB",
+    	"timeInCompany": "August/2014 - Present",
+        "function": "Co-founder e CDO",
+        "desc": "Startup company founded by my group from BEPiD and I. The company will be used to comercialize the Aproximar app and to create new projects. \n\nhttp://www.greenb.com.br"
+	}
+]

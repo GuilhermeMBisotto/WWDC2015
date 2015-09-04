@@ -15,8 +15,7 @@ class PageItemController: UIViewController {
     @IBOutlet var contentImageView: UIImageView?
     @IBOutlet weak var buttonId: UIButton!
     
-    // MARK: - Variables
-    
+    //MARK: - Variables
     var indexItem : Int = 0;
     var nameImage: String = ""
     
@@ -31,7 +30,7 @@ class PageItemController: UIViewController {
         }
     }
     
-    // MARK: - View Lifecycle
+    //MARK: - View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -39,20 +38,10 @@ class PageItemController: UIViewController {
         let aString: String = imageName
         let newString = aString.stringByReplacingOccurrencesOfString(".png", withString: "", options: NSStringCompareOptions.LiteralSearch, range: nil)
         itemTitle.text = newString
-        
-        addGlowInLabel(itemTitle)
+    
     }
     
-    func addGlowInLabel(label: UILabel) {
-        var color: UIColor = label.textColor
-        
-        label.layer.shadowColor = color.CGColor
-        label.layer.shadowRadius = 4.0
-        label.layer.shadowOpacity = 1.0
-        label.layer.shadowOffset = CGSizeZero
-        label.layer.masksToBounds = false;
-    }
-    
+    //MARK: - Actions
     @IBAction func tapRecognizer(sender: AnyObject) {
         
         var modalView: UIViewController?
@@ -83,7 +72,7 @@ class PageItemController: UIViewController {
         modalView!.modalPresentationCapturesStatusBarAppearance = true
         modalView!.modalInPopover = true
         modalView!.modalPresentationStyle = UIModalPresentationStyle.OverFullScreen
-        modalView!.modalTransitionStyle = UIModalTransitionStyle.CoverVertical
+        modalView!.modalTransitionStyle = UIModalTransitionStyle.CrossDissolve
         presentViewController(modalView!, animated: true, completion: nil)
     }
 }
